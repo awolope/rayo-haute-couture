@@ -12,19 +12,36 @@
   background-blend-mode: overlay;
   margin-top: 30px;
 }
-
+.h2m {
+  font-family: Cormorant Garamond;
+  font-size: 43px;
+  font-weight: 600;
+  line-height: 46.66px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(191, 117, 75, 1);
+}
+.h2m span {
+  color: white;
+}
 .writing-section {
-  width: 25%; /* Writing section occupies 25% of the page width */
-  padding-right: 20px;
+  margin-top: 140px;
+  width: 33%; /* Writing section occupies 25% of the page width */
+  margin-right: -120px;
+  margin-left: 50px;
   color: #fff;
+}
+.pm1 {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 19.36px;
+  letter-spacing: 0.001em;
+  text-align: left;
+  margin: 20px;
 }
 
 .writing-section h1 {
   font-size: 2.5rem;
-}
-
-.writing-section p {
-  font-size: 1.25rem;
 }
 
 .images-section {
@@ -36,11 +53,14 @@
 }
 
 .images-section img {
-  width: 41%; /* Adjust the width of the images */
+  width: 40%; /* Adjust the width of the images */
   margin: 10px 0; /* Add space between images */
   margin-top: 230px;
   object-fit: cover;
   height: auto; /* Allow images to scale properly */
+}
+.fa-arrow-up {
+  margin-left: 10px;
 }
 
 /* Responsive adjustments */
@@ -53,7 +73,17 @@
 
   .writing-section {
     width: 30%; /* Writing section takes up full width on mobile */
-    padding: 0px 0;
+    padding: 0px;
+    margin-top: 70px;
+    margin-left: 15px;
+    margin-right: 0px;
+  }
+  .pm1 {
+    font-size: 8px;
+    font-size: 100;
+    margin: 0px;
+    margin-bottom: 20px;
+    line-height: 10px;
   }
 
   .images-section {
@@ -63,9 +93,13 @@
   }
 
   .images-section img {
-    width: 55%;
-    height: 54%;
+    width: 50%;
+    height: 50%;
     margin: 3px;
     object-fit: cover;
+  }
+  .h2m {
+    font-size: 12.5px;
+    line-height: 20px;
   }
 }
