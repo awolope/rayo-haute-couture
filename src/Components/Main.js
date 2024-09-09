@@ -15,7 +15,7 @@ const Main = () => {
       <div className="writing-section">
         <div>
           <h2 className="h2m">
-            Yumi cooperate co-ords <br />
+            Yvette cooperate co-ords <br />
             <span> – where classic meets chic</span>
           </h2>
           <p className="pm1">Discover Your Signature Look</p>

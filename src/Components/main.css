@@ -72,11 +72,11 @@
   }
 
   .writing-section {
-    width: 30%; /* Writing section takes up full width on mobile */
+    width: 27%; /* Writing section takes up full width on mobile */
     padding: 0px;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 15px;
-    margin-right: 0px;
+    margin-right: -18px;
   }
   .pm1 {
     font-size: 8px;
@@ -87,19 +87,20 @@
   }
 
   .images-section {
-    width: 40%;
+    width: 37%;
+
     margin-top: 30px;
     margin-bottom: -75px; /* Images section takes up full width on mobile */
   }
 
   .images-section img {
-    width: 50%;
+    width: 58%;
     height: 50%;
-    margin: 3px;
+    margin: 6px;
     object-fit: cover;
   }
   .h2m {
-    font-size: 12.5px;
-    line-height: 20px;
+    font-size: 9.5px;
+    line-height: 12px;
   }
 }
